@@ -15,6 +15,8 @@
 		3D0D20E62551F2A900B01120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0D20E42551F2A900B01120 /* LaunchScreen.storyboard */; };
 		3D0D20F12551F2A900B01120 /* practicatableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D20F02551F2A900B01120 /* practicatableviewTests.swift */; };
 		3D0D20FC2551F2AA00B01120 /* practicatableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D20FB2551F2AA00B01120 /* practicatableviewUITests.swift */; };
+		3D0D210F2551F84900B01120 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D210E2551F84900B01120 /* Alumno.swift */; };
+		3D0D211125524A6400B01120 /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D211025524A6400B01120 /* CeldaAlumnoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D0D20F72551F2AA00B01120 /* practicatableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practicatableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0D20FB2551F2AA00B01120 /* practicatableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicatableviewUITests.swift; sourceTree = "<group>"; };
 		3D0D20FD2551F2AA00B01120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0D210E2551F84900B01120 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		3D0D211025524A6400B01120 /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,12 @@
 		3D0D20D82551F2A000B01120 /* practicatableview */ = {
 			isa = PBXGroup;
 			children = (
+				3D0D210D2551F81A00B01120 /* Models */,
+				3D0D210C2551F80700B01120 /* Controllers */,
+				3D0D21092551F74E00B01120 /* Sroeyboards */,
 				3D0D20D92551F2A000B01120 /* AppDelegate.swift */,
 				3D0D20DB2551F2A000B01120 /* SceneDelegate.swift */,
-				3D0D20DD2551F2A000B01120 /* ViewController.swift */,
-				3D0D20DF2551F2A000B01120 /* Main.storyboard */,
 				3D0D20E22551F2A900B01120 /* Assets.xcassets */,
-				3D0D20E42551F2A900B01120 /* LaunchScreen.storyboard */,
 				3D0D20E72551F2A900B01120 /* Info.plist */,
 			);
 			path = practicatableview;
@@ -126,6 +130,32 @@
 				3D0D20FD2551F2AA00B01120 /* Info.plist */,
 			);
 			path = practicatableviewUITests;
+			sourceTree = "<group>";
+		};
+		3D0D21092551F74E00B01120 /* Sroeyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3D0D20DF2551F2A000B01120 /* Main.storyboard */,
+				3D0D20E42551F2A900B01120 /* LaunchScreen.storyboard */,
+			);
+			name = Sroeyboards;
+			sourceTree = "<group>";
+		};
+		3D0D210C2551F80700B01120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D0D20DD2551F2A000B01120 /* ViewController.swift */,
+				3D0D211025524A6400B01120 /* CeldaAlumnoController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3D0D210D2551F81A00B01120 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D0D210E2551F84900B01120 /* Alumno.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +292,8 @@
 				3D0D20DE2551F2A000B01120 /* ViewController.swift in Sources */,
 				3D0D20DA2551F2A000B01120 /* AppDelegate.swift in Sources */,
 				3D0D20DC2551F2A000B01120 /* SceneDelegate.swift in Sources */,
+				3D0D210F2551F84900B01120 /* Alumno.swift in Sources */,
+				3D0D211125524A6400B01120 /* CeldaAlumnoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
